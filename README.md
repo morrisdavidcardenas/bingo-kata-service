@@ -1,3 +1,7 @@
+### Test
+
+npm test
+
 ### Calling Bingo Numbers
 
 url: localhost:3001/number/generate
@@ -114,4 +118,6 @@ json example:
         }
     ]
 }
+
+
 
