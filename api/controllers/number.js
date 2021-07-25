@@ -20,6 +20,10 @@ exports.generate = async (req,res,next) => {
   }
 }
 
+exports.getList = () => {
+  return listNumber;
+}
+
 function generateNumber(minimum, maximum) {
   if (listNumber.length >= maximum) throw Error("There is no more numbers available");
   let newNumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
