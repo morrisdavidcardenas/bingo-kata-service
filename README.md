@@ -119,5 +119,11 @@ json example:
     ]
 }
 
+### Checking Bingo Cards
 
+url: localhost:3001/card/check
+
+json example:
+
+"the player is the winner"
 
